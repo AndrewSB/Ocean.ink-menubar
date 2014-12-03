@@ -8,10 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		467F0B5E1A2E405900D988DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F0B5D1A2E405900D988DB /* AppDelegate.swift */; };
-		467F0B601A2E405900D988DB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F0B5F1A2E405900D988DB /* ViewController.swift */; };
 		467F0B621A2E405900D988DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467F0B611A2E405900D988DB /* Images.xcassets */; };
-		467F0B651A2E405900D988DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 467F0B631A2E405900D988DB /* Main.storyboard */; };
 		467F0B711A2E405900D988DB /* Ocean_ink_menubarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F0B701A2E405900D988DB /* Ocean_ink_menubarTests.swift */; };
+		46B834561A2FD819008EFF63 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46B834551A2FD819008EFF63 /* MainMenu.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +27,11 @@
 		467F0B581A2E405900D988DB /* Ocean.ink-menubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ocean.ink-menubar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		467F0B5C1A2E405900D988DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		467F0B5D1A2E405900D988DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		467F0B5F1A2E405900D988DB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		467F0B611A2E405900D988DB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		467F0B641A2E405900D988DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		467F0B6A1A2E405900D988DB /* Ocean.ink-menubarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ocean.ink-menubarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		467F0B6F1A2E405900D988DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		467F0B701A2E405900D988DB /* Ocean_ink_menubarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean_ink_menubarTests.swift; sourceTree = "<group>"; };
+		46B834551A2FD819008EFF63 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,9 +74,8 @@
 			isa = PBXGroup;
 			children = (
 				467F0B5D1A2E405900D988DB /* AppDelegate.swift */,
-				467F0B5F1A2E405900D988DB /* ViewController.swift */,
+				46B834551A2FD819008EFF63 /* MainMenu.xib */,
 				467F0B611A2E405900D988DB /* Images.xcassets */,
-				467F0B631A2E405900D988DB /* Main.storyboard */,
 				467F0B5B1A2E405900D988DB /* Supporting Files */,
 			);
 			path = "Ocean.ink-menubar";
@@ -190,7 +187,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				467F0B621A2E405900D988DB /* Images.xcassets in Resources */,
-				467F0B651A2E405900D988DB /* Main.storyboard in Resources */,
+				46B834561A2FD819008EFF63 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -208,7 +205,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				467F0B601A2E405900D988DB /* ViewController.swift in Sources */,
 				467F0B5E1A2E405900D988DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,17 +226,6 @@
 			targetProxy = 467F0B6B1A2E405900D988DB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		467F0B631A2E405900D988DB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				467F0B641A2E405900D988DB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		467F0B721A2E405900D988DB /* Debug */ = {
@@ -397,6 +382,7 @@
 				467F0B761A2E405900D988DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		467F0B771A2E405900D988DB /* Build configuration list for PBXNativeTarget "Ocean.ink-menubarTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +391,7 @@
 				467F0B791A2E405900D988DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
