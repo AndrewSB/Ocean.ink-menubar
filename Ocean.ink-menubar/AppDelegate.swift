@@ -11,8 +11,6 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
-
-
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
     }
@@ -21,6 +19,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to tear down your application
     }
 
+    func setupStatusItem() {
+        let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(NSVariableStatusItemLength)
+        statusItem.title = ""
+        statusItem.image = NSImage(named: "StatusItem-Image")
+        statusItem.alternateImage = NSImage(named: "StatusItem-AlternateImage")
+        statusItem.highlightMode = true
+    }
+    
+    func setupPopoverItem() {
+        
+    }
 
 }
 
