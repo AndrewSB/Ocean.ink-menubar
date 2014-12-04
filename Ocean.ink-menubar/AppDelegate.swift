@@ -10,16 +10,24 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
+    
+    let popover: PopoverView
 
     override init() {
         println("initted")
+        
+        let bar = NSStatusBar.systemStatusBar()
+        let item = bar.statusItemWithLength(-1)
+        
+        self.popover = PopoverView(imageName: "StatusItem-Image", item: item)
+        item.view = popover
+        
         super.init()
     }
     
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
         println("did finish launching")
-        setupStatusItem()
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
