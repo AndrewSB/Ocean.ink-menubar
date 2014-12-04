@@ -11,13 +11,23 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
 
+    override init() {
+        println("initted")
+        super.init()
+    }
+    
     func applicationDidFinishLaunching(aNotification: NSNotification) {
         // Insert code here to initialize your application
+        println("did finish launching")
         setupStatusItem()
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {
         // Insert code here to tear down your application
+    }
+    
+    override func awakeFromNib() {
+        //onmousedown
     }
 
     func setupStatusItem() {
@@ -26,6 +36,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         statusItem.image = NSImage(named: "StatusItem-Image")
         statusItem.alternateImage = NSImage(named: "StatusItem-AlternateImage")
         statusItem.highlightMode = true
+        
+        setupPopoverItem()
     }
     
     func setupPopoverItem() {
