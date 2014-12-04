@@ -8,7 +8,11 @@
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
-        <customObject id="T6c-AY-kVd" customClass="AppDelegate" customModule="Ocean_ink_menubar" customModuleProvider="target"/>
+        <customObject id="T6c-AY-kVd" customClass="AppDelegate" customModule="Ocean_ink_menubar" customModuleProvider="target">
+            <connections>
+                <outlet property="popoutView" destination="Xv3-Rs-6cA" id="JUs-QQ-SDB"/>
+            </connections>
+        </customObject>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
                 <menuItem title="Ocean" id="1Xt-HY-uBw">
@@ -658,5 +662,20 @@
                 </menuItem>
             </items>
         </menu>
+        <popover id="Xv3-Rs-6cA">
+            <connections>
+                <outlet property="contentViewController" destination="Dev-qK-LRk" id="Xn3-b3-nDn"/>
+            </connections>
+        </popover>
+        <viewController id="Dev-qK-LRk" userLabel="Popover View Controller">
+            <connections>
+                <outlet property="view" destination="Pdw-Gq-utQ" id="4Xt-tw-NgE"/>
+            </connections>
+        </viewController>
+        <customView id="Pdw-Gq-utQ">
+            <rect key="frame" x="0.0" y="0.0" width="306" height="176"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <point key="canvasLocation" x="262" y="316"/>
+        </customView>
     </objects>
 </document>
