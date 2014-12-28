@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46CDA0541A50B951001FCCB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDA0531A50B951001FCCB3 /* AppDelegate.swift */; };
+		46CDA0561A50B951001FCCB3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDA0551A50B951001FCCB3 /* ViewController.swift */; };
+		46CDA0581A50B951001FCCB3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46CDA0571A50B951001FCCB3 /* Images.xcassets */; };
+		46CDA05B1A50B951001FCCB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46CDA0591A50B951001FCCB3 /* Main.storyboard */; };
+		46CDA0671A50B951001FCCB3 /* Ocean_ink_MenubarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDA0661A50B951001FCCB3 /* Ocean_ink_MenubarTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46CDA0611A50B951001FCCB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46CDA0461A50B951001FCCB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46CDA04D1A50B951001FCCB3;
+			remoteInfo = "Ocean.ink Menubar";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		46CDA04E1A50B951001FCCB3 /* Ocean.ink Menubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ocean.ink Menubar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CDA0521A50B951001FCCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46CDA0531A50B951001FCCB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46CDA0551A50B951001FCCB3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46CDA0571A50B951001FCCB3 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		46CDA05A1A50B951001FCCB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46CDA0601A50B951001FCCB3 /* Ocean.ink MenubarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Ocean.ink MenubarTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46CDA0651A50B951001FCCB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46CDA0661A50B951001FCCB3 /* Ocean_ink_MenubarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean_ink_MenubarTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46CDA04B1A50B951001FCCB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CDA05D1A50B951001FCCB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46CDA0451A50B951001FCCB3 = {
+			isa = PBXGroup;
+			children = (
+				46CDA0501A50B951001FCCB3 /* Ocean.ink Menubar */,
+				46CDA0631A50B951001FCCB3 /* Ocean.ink MenubarTests */,
+				46CDA04F1A50B951001FCCB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46CDA04F1A50B951001FCCB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46CDA04E1A50B951001FCCB3 /* Ocean.ink Menubar.app */,
+				46CDA0601A50B951001FCCB3 /* Ocean.ink MenubarTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46CDA0501A50B951001FCCB3 /* Ocean.ink Menubar */ = {
+			isa = PBXGroup;
+			children = (
+				46CDA0531A50B951001FCCB3 /* AppDelegate.swift */,
+				46CDA0551A50B951001FCCB3 /* ViewController.swift */,
+				46CDA0571A50B951001FCCB3 /* Images.xcassets */,
+				46CDA0591A50B951001FCCB3 /* Main.storyboard */,
+				46CDA0511A50B951001FCCB3 /* Supporting Files */,
+			);
+			path = "Ocean.ink Menubar";
+			sourceTree = "<group>";
+		};
+		46CDA0511A50B951001FCCB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46CDA0521A50B951001FCCB3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		46CDA0631A50B951001FCCB3 /* Ocean.ink MenubarTests */ = {
+			isa = PBXGroup;
+			children = (
+				46CDA0661A50B951001FCCB3 /* Ocean_ink_MenubarTests.swift */,
+				46CDA0641A50B951001FCCB3 /* Supporting Files */,
+			);
+			path = "Ocean.ink MenubarTests";
+			sourceTree = "<group>";
+		};
+		46CDA0641A50B951001FCCB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46CDA0651A50B951001FCCB3 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46CDA04D1A50B951001FCCB3 /* Ocean.ink Menubar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CDA06A1A50B951001FCCB3 /* Build configuration list for PBXNativeTarget "Ocean.ink Menubar" */;
+			buildPhases = (
+				46CDA04A1A50B951001FCCB3 /* Sources */,
+				46CDA04B1A50B951001FCCB3 /* Frameworks */,
+				46CDA04C1A50B951001FCCB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Ocean.ink Menubar";
+			productName = "Ocean.ink Menubar";
+			productReference = 46CDA04E1A50B951001FCCB3 /* Ocean.ink Menubar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		46CDA05F1A50B951001FCCB3 /* Ocean.ink MenubarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46CDA06D1A50B951001FCCB3 /* Build configuration list for PBXNativeTarget "Ocean.ink MenubarTests" */;
+			buildPhases = (
+				46CDA05C1A50B951001FCCB3 /* Sources */,
+				46CDA05D1A50B951001FCCB3 /* Frameworks */,
+				46CDA05E1A50B951001FCCB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46CDA0621A50B951001FCCB3 /* PBXTargetDependency */,
+			);
+			name = "Ocean.ink MenubarTests";
+			productName = "Ocean.ink MenubarTests";
+			productReference = 46CDA0601A50B951001FCCB3 /* Ocean.ink MenubarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46CDA0461A50B951001FCCB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = asb;
+				TargetAttributes = {
+					46CDA04D1A50B951001FCCB3 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					46CDA05F1A50B951001FCCB3 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 46CDA04D1A50B951001FCCB3;
+					};
+				};
+			};
+			buildConfigurationList = 46CDA0491A50B951001FCCB3 /* Build configuration list for PBXProject "Ocean.ink Menubar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46CDA0451A50B951001FCCB3;
+			productRefGroup = 46CDA04F1A50B951001FCCB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46CDA04D1A50B951001FCCB3 /* Ocean.ink Menubar */,
+				46CDA05F1A50B951001FCCB3 /* Ocean.ink MenubarTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46CDA04C1A50B951001FCCB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CDA0581A50B951001FCCB3 /* Images.xcassets in Resources */,
+				46CDA05B1A50B951001FCCB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CDA05E1A50B951001FCCB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46CDA04A1A50B951001FCCB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CDA0561A50B951001FCCB3 /* ViewController.swift in Sources */,
+				46CDA0541A50B951001FCCB3 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46CDA05C1A50B951001FCCB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46CDA0671A50B951001FCCB3 /* Ocean_ink_MenubarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46CDA0621A50B951001FCCB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46CDA04D1A50B951001FCCB3 /* Ocean.ink Menubar */;
+			targetProxy = 46CDA0611A50B951001FCCB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		46CDA0591A50B951001FCCB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46CDA05A1A50B951001FCCB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46CDA0681A50B951001FCCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46CDA0691A50B951001FCCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		46CDA06B1A50B951001FCCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Ocean.ink Menubar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46CDA06C1A50B951001FCCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Ocean.ink Menubar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		46CDA06E1A50B951001FCCB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ocean.ink MenubarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ocean.ink Menubar.app/Contents/MacOS/Ocean.ink Menubar";
+			};
+			name = Debug;
+		};
+		46CDA06F1A50B951001FCCB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Ocean.ink MenubarTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ocean.ink Menubar.app/Contents/MacOS/Ocean.ink Menubar";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46CDA0491A50B951001FCCB3 /* Build configuration list for PBXProject "Ocean.ink Menubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CDA0681A50B951001FCCB3 /* Debug */,
+				46CDA0691A50B951001FCCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46CDA06A1A50B951001FCCB3 /* Build configuration list for PBXNativeTarget "Ocean.ink Menubar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CDA06B1A50B951001FCCB3 /* Debug */,
+				46CDA06C1A50B951001FCCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		46CDA06D1A50B951001FCCB3 /* Build configuration list for PBXNativeTarget "Ocean.ink MenubarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46CDA06E1A50B951001FCCB3 /* Debug */,
+				46CDA06F1A50B951001FCCB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46CDA0461A50B951001FCCB3 /* Project object */;
+}
