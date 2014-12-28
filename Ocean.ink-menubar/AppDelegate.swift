@@ -11,23 +11,18 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
     
-    @IBOutlet weak var popoutView: NSPopover!
-//    let popover: PopoverView
+    let popover: PopoverView
 
     override init() {
-        let item = NSStatusBar.systemStatusBar().statusItemWithLength(-1)
+        println("initted")
         
-        //self.popover = PopoverView(imageName: "StatusItem-Image", item: item)
-        //item.view = popover
+        let bar = NSStatusBar.systemStatusBar()
+        let item = bar.statusItemWithLength(-1)
         
-        item.image = NSImage(named: "StatusItem-Image")
-        item.menu = NSMenu(title: "or nah")
-        
+        self.popover = PopoverView(imageName: "StatusItem-Image", item: item)
+        item.view = popover
         
         super.init()
-        
-        // To add pre Yosemite support see http://stackoverflow.com/questions/5663887/drag-and-drop-with-nsstatusitem/26810727#26810727
-        
     }
     
     func applicationDidFinishLaunching(aNotification: NSNotification) {
@@ -39,17 +34,23 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to tear down your application
     }
     
-//    override func awakeFromNib() {
-//        let popover = self.popover
-//        
-//        popover.onMouseDown = {
-//            if popover.isSelected {
-//                self.popoutView?.showRelativeToRect(self.popover.frame, ofView: popover, preferredEdge: 1)
-//            }
-//            if !popover.isSelected {
-//                self.popoutView?.close()
-//            }
-//        }
-//    }
+    override func awakeFromNib() {
+        //onmousedown
+    }
+
+    func setupStatusItem() {
+        let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(16)
+        statusItem.title = "my app"
+        statusItem.image = NSImage(named: "StatusItem-Image")
+        statusItem.alternateImage = NSImage(named: "StatusItem-AlternateImage")
+        statusItem.highlightMode = true
+        
+        setupPopoverItem()
+    }
+    
+    func setupPopoverItem() {
+        
+    }
+
 }
 

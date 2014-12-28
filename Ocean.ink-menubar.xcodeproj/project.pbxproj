@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		462559981A3000FC001C84E3 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462559971A3000FC001C84E3 /* PopoverView.swift */; };
-		4654B65E1A30401A005ED4AE /* DragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4654B65D1A30401A005ED4AE /* DragView.swift */; };
 		467F0B5E1A2E405900D988DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F0B5D1A2E405900D988DB /* AppDelegate.swift */; };
 		467F0B621A2E405900D988DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467F0B611A2E405900D988DB /* Images.xcassets */; };
 		467F0B711A2E405900D988DB /* Ocean_ink_menubarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F0B701A2E405900D988DB /* Ocean_ink_menubarTests.swift */; };
@@ -27,7 +26,6 @@
 
 /* Begin PBXFileReference section */
 		462559971A3000FC001C84E3 /* PopoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
-		4654B65D1A30401A005ED4AE /* DragView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragView.swift; sourceTree = "<group>"; };
 		467F0B581A2E405900D988DB /* Ocean.ink-menubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ocean.ink-menubar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		467F0B5C1A2E405900D988DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		467F0B5D1A2E405900D988DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,7 +77,6 @@
 			children = (
 				467F0B5D1A2E405900D988DB /* AppDelegate.swift */,
 				462559971A3000FC001C84E3 /* PopoverView.swift */,
-				4654B65D1A30401A005ED4AE /* DragView.swift */,
 				46B834551A2FD819008EFF63 /* MainMenu.xib */,
 				467F0B611A2E405900D988DB /* Images.xcassets */,
 				467F0B5B1A2E405900D988DB /* Supporting Files */,
@@ -213,7 +210,6 @@
 			files = (
 				462559981A3000FC001C84E3 /* PopoverView.swift in Sources */,
 				467F0B5E1A2E405900D988DB /* AppDelegate.swift in Sources */,
-				4654B65E1A30401A005ED4AE /* DragView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
