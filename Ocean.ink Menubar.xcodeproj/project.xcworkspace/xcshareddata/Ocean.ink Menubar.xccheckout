@@ -12,13 +12,17 @@
 	<dict>
 		<key>8EA9FFCC68C0CCA329E809D47CF57A614E17C622</key>
 		<string>https://github.com/AndrewSB/Ocean.ink-menubar.git</string>
+		<key>9248E923E409A8D8BCFB94CD3F2EE480CD7097AE</key>
+		<string>https://github.com/aschuch/AXStatusItemPopup.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>Ocean.ink Menubar/Ocean.ink Menubar.xcodeproj</string>
+	<string>Ocean.ink Menubar.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>8EA9FFCC68C0CCA329E809D47CF57A614E17C622</key>
-		<string>../../..</string>
+		<string>../..</string>
+		<key>9248E923E409A8D8BCFB94CD3F2EE480CD7097AE</key>
+		<string>../..AXStatusItemPopup/</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/AndrewSB/Ocean.ink-menubar.git</string>
@@ -28,6 +32,14 @@
 	<string>8EA9FFCC68C0CCA329E809D47CF57A614E17C622</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9248E923E409A8D8BCFB94CD3F2EE480CD7097AE</string>
+			<key>IDESourceControlWCCName</key>
+			<string>AXStatusItemPopup</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
