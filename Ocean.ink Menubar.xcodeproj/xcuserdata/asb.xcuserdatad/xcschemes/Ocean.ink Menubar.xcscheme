@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "46CDA04D1A50B951001FCCB3"
+               BlueprintIdentifier = "46CDA0781A50B994001FCCB3"
                BuildableName = "Ocean.ink Menubar.app"
                BlueprintName = "Ocean.ink Menubar"
                ReferencedContainer = "container:Ocean.ink Menubar.xcodeproj">
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "46CDA05F1A50B951001FCCB3"
+               BlueprintIdentifier = "46CDA0881A50B994001FCCB3"
                BuildableName = "Ocean.ink MenubarTests.xctest"
                BlueprintName = "Ocean.ink MenubarTests"
                ReferencedContainer = "container:Ocean.ink Menubar.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "46CDA05F1A50B951001FCCB3"
+               BlueprintIdentifier = "46CDA0881A50B994001FCCB3"
                BuildableName = "Ocean.ink MenubarTests.xctest"
                BlueprintName = "Ocean.ink MenubarTests"
                ReferencedContainer = "container:Ocean.ink Menubar.xcodeproj">
@@ -56,7 +56,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "46CDA04D1A50B951001FCCB3"
+            BlueprintIdentifier = "46CDA0781A50B994001FCCB3"
             BuildableName = "Ocean.ink Menubar.app"
             BlueprintName = "Ocean.ink Menubar"
             ReferencedContainer = "container:Ocean.ink Menubar.xcodeproj">
@@ -75,7 +75,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "46CDA04D1A50B951001FCCB3"
+            BlueprintIdentifier = "46CDA0781A50B994001FCCB3"
             BuildableName = "Ocean.ink Menubar.app"
             BlueprintName = "Ocean.ink Menubar"
             ReferencedContainer = "container:Ocean.ink Menubar.xcodeproj">
@@ -93,7 +93,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "46CDA04D1A50B951001FCCB3"
+            BlueprintIdentifier = "46CDA0781A50B994001FCCB3"
             BuildableName = "Ocean.ink Menubar.app"
             BlueprintName = "Ocean.ink Menubar"
             ReferencedContainer = "container:Ocean.ink Menubar.xcodeproj">
