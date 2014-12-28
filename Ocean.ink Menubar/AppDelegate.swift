@@ -10,7 +10,10 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
+    var statusItemPopup: AXStatusItemPopup?
+    var contentViewController: ContentViewController?
 
+    
     func applicationDidFinishLaunching(aNotification: NSNotification) {
     }
 

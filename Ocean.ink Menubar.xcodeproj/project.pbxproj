@@ -12,6 +12,8 @@
 		46CDA0841A50B994001FCCB3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46CDA0821A50B994001FCCB3 /* MainMenu.xib */; };
 		46CDA0901A50B994001FCCB3 /* Ocean_ink_MenubarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDA08F1A50B994001FCCB3 /* Ocean_ink_MenubarTests.swift */; };
 		46CDA0A21A50C439001FCCB3 /* AXStatusItemPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CDA0A11A50C439001FCCB3 /* AXStatusItemPopup.m */; };
+		46CDA0A51A50C4DD001FCCB3 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDA0A31A50C4DD001FCCB3 /* ContentViewController.swift */; };
+		46CDA0A61A50C4DD001FCCB3 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46CDA0A41A50C4DD001FCCB3 /* ContentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 		46CDA08F1A50B994001FCCB3 /* Ocean_ink_MenubarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ocean_ink_MenubarTests.swift; sourceTree = "<group>"; };
 		46CDA0A01A50C439001FCCB3 /* AXStatusItemPopup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AXStatusItemPopup.h; sourceTree = "<group>"; };
 		46CDA0A11A50C439001FCCB3 /* AXStatusItemPopup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AXStatusItemPopup.m; sourceTree = "<group>"; };
+		46CDA0A31A50C4DD001FCCB3 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		46CDA0A41A50C4DD001FCCB3 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
+		46CDA0AE1A50C64F001FCCB3 /* Ocean-ink-Menubar-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ocean-ink-Menubar-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +84,8 @@
 				46CDA07E1A50B994001FCCB3 /* AppDelegate.swift */,
 				46CDA0801A50B994001FCCB3 /* Images.xcassets */,
 				46CDA0821A50B994001FCCB3 /* MainMenu.xib */,
+				46CDA0A31A50C4DD001FCCB3 /* ContentViewController.swift */,
+				46CDA0A41A50C4DD001FCCB3 /* ContentViewController.xib */,
 				46CDA09F1A50C439001FCCB3 /* AXStatusItemPopup */,
 				46CDA07C1A50B994001FCCB3 /* Supporting Files */,
 			);
@@ -89,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				46CDA07D1A50B994001FCCB3 /* Info.plist */,
+				46CDA0AE1A50C64F001FCCB3 /* Ocean-ink-Menubar-Bridging-Header.h */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -202,6 +210,7 @@
 			files = (
 				46CDA0811A50B994001FCCB3 /* Images.xcassets in Resources */,
 				46CDA0841A50B994001FCCB3 /* MainMenu.xib in Resources */,
+				46CDA0A61A50C4DD001FCCB3 /* ContentViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -220,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				46CDA0A21A50C439001FCCB3 /* AXStatusItemPopup.m in Sources */,
+				46CDA0A51A50C4DD001FCCB3 /* ContentViewController.swift in Sources */,
 				46CDA07F1A50B994001FCCB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -292,6 +302,7 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Ocean.ink Menubar/Ocean-ink-Menubar-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -328,6 +339,7 @@
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				SWIFT_OBJC_BRIDGING_HEADER = "$(PROJECT_DIR)/Ocean.ink Menubar/Ocean-ink-Menubar-Bridging-Header.h";
 			};
 			name = Release;
 		};
