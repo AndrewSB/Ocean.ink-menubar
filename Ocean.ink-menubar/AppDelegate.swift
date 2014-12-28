@@ -11,16 +11,18 @@ import Cocoa
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
     
-    let popover: PopoverView
-
+    let oceanView: OceanPopoverView
+    @IBOutlet weak var popover: NSPopover!
+    
+    
     override init() {
         println("initted")
         
         let bar = NSStatusBar.systemStatusBar()
         let item = bar.statusItemWithLength(-1)
         
-        self.popover = PopoverView(imageName: "StatusItem-Image", item: item)
-        item.view = popover
+        self.oceanView = OceanPopoverView(imageName: "StatusItem-Image", item: item)
+        item.view = oceanView
         
         super.init()
     }
@@ -40,10 +42,21 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     func setupStatusItem() {
         let statusItem = NSStatusBar.systemStatusBar().statusItemWithLength(16)
+        let oceanView = self.oceanView
+        
         statusItem.title = "my app"
         statusItem.image = NSImage(named: "StatusItem-Image")
         statusItem.alternateImage = NSImage(named: "StatusItem-AlternateImage")
         statusItem.highlightMode = true
+        
+        
+        oceanView.onMouseDown = {
+            if oceanView.isSelected {
+                self.popover.showRelativeToRect(self.oceanView.frame, ofView: oceanView, preferredEdge: 1)
+            } else {
+                self.popover.close()
+            }
+        }
         
         setupPopoverItem()
     }

@@ -1,14 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6250" systemVersion="14B23" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="6254" systemVersion="14C81f" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6250"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="6254"/>
     </dependencies>
     <objects>
         <customObject id="-2" userLabel="File's Owner" customClass="NSApplication"/>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
         <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
-        <customObject id="T6c-AY-kVd" customClass="AppDelegate" customModule="Ocean_ink_menubar" customModuleProvider="target"/>
+        <customObject id="T6c-AY-kVd" customClass="AppDelegate" customModule="Ocean_ink_menubar" customModuleProvider="target">
+            <connections>
+                <outlet property="popover" destination="yj9-Ur-JSC" id="a6s-hd-Xma"/>
+            </connections>
+        </customObject>
         <menu title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
             <items>
                 <menuItem title="Ocean" id="1Xt-HY-uBw">
@@ -658,5 +662,11 @@
                 </menuItem>
             </items>
         </menu>
+        <viewController id="5jm-n8-FoK" userLabel="Popover View Controller"/>
+        <popover id="yj9-Ur-JSC">
+            <connections>
+                <outlet property="contentViewController" destination="5jm-n8-FoK" id="nbC-sQ-hRh"/>
+            </connections>
+        </popover>
     </objects>
 </document>

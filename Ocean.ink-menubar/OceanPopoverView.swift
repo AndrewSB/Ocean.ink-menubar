@@ -9,7 +9,7 @@
 import Cocoa
 import Foundation
 
-class PopoverView: NSView {
+class OceanPopoverView: NSView {
     
     var image: NSImage
     let item: NSStatusItem

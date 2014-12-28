@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		462559981A3000FC001C84E3 /* PopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462559971A3000FC001C84E3 /* PopoverView.swift */; };
+		462559981A3000FC001C84E3 /* OceanPopoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 462559971A3000FC001C84E3 /* OceanPopoverView.swift */; };
 		467F0B5E1A2E405900D988DB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F0B5D1A2E405900D988DB /* AppDelegate.swift */; };
 		467F0B621A2E405900D988DB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 467F0B611A2E405900D988DB /* Images.xcassets */; };
 		467F0B711A2E405900D988DB /* Ocean_ink_menubarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 467F0B701A2E405900D988DB /* Ocean_ink_menubarTests.swift */; };
@@ -25,7 +25,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		462559971A3000FC001C84E3 /* PopoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopoverView.swift; sourceTree = "<group>"; };
+		462559971A3000FC001C84E3 /* OceanPopoverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OceanPopoverView.swift; sourceTree = "<group>"; };
 		467F0B581A2E405900D988DB /* Ocean.ink-menubar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ocean.ink-menubar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		467F0B5C1A2E405900D988DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		467F0B5D1A2E405900D988DB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -76,7 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				467F0B5D1A2E405900D988DB /* AppDelegate.swift */,
-				462559971A3000FC001C84E3 /* PopoverView.swift */,
+				462559971A3000FC001C84E3 /* OceanPopoverView.swift */,
 				46B834551A2FD819008EFF63 /* MainMenu.xib */,
 				467F0B611A2E405900D988DB /* Images.xcassets */,
 				467F0B5B1A2E405900D988DB /* Supporting Files */,
@@ -208,7 +208,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				462559981A3000FC001C84E3 /* PopoverView.swift in Sources */,
+				462559981A3000FC001C84E3 /* OceanPopoverView.swift in Sources */,
 				467F0B5E1A2E405900D988DB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
