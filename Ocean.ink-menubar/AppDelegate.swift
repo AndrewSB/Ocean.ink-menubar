@@ -12,14 +12,16 @@ import Cocoa
 class AppDelegate: NSObject, NSApplicationDelegate {
     
     @IBOutlet weak var popoutView: NSPopover!
-    let popover: PopoverView
+//    let popover: PopoverView
 
     override init() {
         let item = NSStatusBar.systemStatusBar().statusItemWithLength(-1)
         
-        self.popover = PopoverView(imageName: "StatusItem-Image", item: item)
-        item.view = popover
+        //self.popover = PopoverView(imageName: "StatusItem-Image", item: item)
+        //item.view = popover
         
+        item.image = NSImage(named: "StatusItem-Image")
+        item.menu = NSMenu(title: "or nah")
         
         
         super.init()
@@ -37,17 +39,17 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to tear down your application
     }
     
-    override func awakeFromNib() {
-        let popover = self.popover
-        
-        popover.onMouseDown = {
-            if popover.isSelected {
-                self.popoutView?.showRelativeToRect(self.popover.frame, ofView: popover, preferredEdge: 1)
-            }
-            if !popover.isSelected {
-                self.popoutView?.close()
-            }
-        }
-    }
+//    override func awakeFromNib() {
+//        let popover = self.popover
+//        
+//        popover.onMouseDown = {
+//            if popover.isSelected {
+//                self.popoutView?.showRelativeToRect(self.popover.frame, ofView: popover, preferredEdge: 1)
+//            }
+//            if !popover.isSelected {
+//                self.popoutView?.close()
+//            }
+//        }
+//    }
 }
 
