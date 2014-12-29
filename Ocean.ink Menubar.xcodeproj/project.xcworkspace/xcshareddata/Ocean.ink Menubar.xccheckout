@@ -22,7 +22,7 @@
 		<key>8EA9FFCC68C0CCA329E809D47CF57A614E17C622</key>
 		<string>../..</string>
 		<key>9248E923E409A8D8BCFB94CD3F2EE480CD7097AE</key>
-		<string>../..AXStatusItemPopup/</string>
+		<string>../..AXStatusItemPopup</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/AndrewSB/Ocean.ink-menubar.git</string>
@@ -36,17 +36,17 @@
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9248E923E409A8D8BCFB94CD3F2EE480CD7097AE</string>
+			<string>8EA9FFCC68C0CCA329E809D47CF57A614E17C622</string>
 			<key>IDESourceControlWCCName</key>
-			<string>AXStatusItemPopup</string>
+			<string>Ocean.ink-menubar</string>
 		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8EA9FFCC68C0CCA329E809D47CF57A614E17C622</string>
+			<string>9248E923E409A8D8BCFB94CD3F2EE480CD7097AE</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Ocean.ink-menubar</string>
+			<string>Ocean.ink-menubarAXStatusItemPopup</string>
 		</dict>
 	</array>
 </dict>

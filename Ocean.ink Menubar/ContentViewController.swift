@@ -9,10 +9,17 @@
 import Cocoa
 
 class ContentViewController: NSViewController {
-
+    let consumerKey = "ImMa1vBc0TLVJxpiknuY1rh8h"
+    let consumerSecret = "s6DzlS4MxacYKHrNYfph3g0xUs7rDAdeeOTGPlFDWCz4cVS71v"
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do view setup here.
+        println("Content viewDidLoad")
+        
+        
     }
     
+    @IBAction func logInWithTwitterHit(sender: AnyObject) {
+        
+    }
 }
