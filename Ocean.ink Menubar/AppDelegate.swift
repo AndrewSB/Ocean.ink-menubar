@@ -10,11 +10,13 @@ import Cocoa
 
 @NSApplicationMain
 class AppDelegate: NSObject, NSApplicationDelegate {
+    let contentViewController = ContentViewController(nibName: "ContentViewController", bundle: NSBundle.mainBundle())
     var statusItemPopup: AXStatusItemPopup?
-    var contentViewController: ContentViewController?
 
     
     func applicationDidFinishLaunching(aNotification: NSNotification) {
+        // Init status bar item
+        statusItemPopup = AXStatusItemPopup(viewController: contentViewController, image: NSImage(named: "StatusItemIcon")) // maybe add alternateImage?
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {

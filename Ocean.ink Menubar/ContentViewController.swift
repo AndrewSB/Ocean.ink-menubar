@@ -9,10 +9,15 @@
 import Cocoa
 
 class ContentViewController: NSViewController {
+    @IBOutlet weak var signInButton: NSButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do view setup here.
+        self.signInButton.cell()?.backgroundColor = NSColor.redColor()
+        
+    }
+    
+    @IBAction func signInButtonHit(sender: AnyObject) {
     }
     
 }

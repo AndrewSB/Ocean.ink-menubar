@@ -14,6 +14,7 @@
 		46CDA0A21A50C439001FCCB3 /* AXStatusItemPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = 46CDA0A11A50C439001FCCB3 /* AXStatusItemPopup.m */; };
 		46CDA0A51A50C4DD001FCCB3 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDA0A31A50C4DD001FCCB3 /* ContentViewController.swift */; };
 		46CDA0A61A50C4DD001FCCB3 /* ContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46CDA0A41A50C4DD001FCCB3 /* ContentViewController.xib */; };
+		46CDA0B61A50DB99001FCCB3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46CDA0B51A50DB99001FCCB3 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		46CDA0A31A50C4DD001FCCB3 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		46CDA0A41A50C4DD001FCCB3 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
 		46CDA0AE1A50C64F001FCCB3 /* Ocean-ink-Menubar-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ocean-ink-Menubar-Bridging-Header.h"; sourceTree = "<group>"; };
+		46CDA0B51A50DB99001FCCB3 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				46CDA0801A50B994001FCCB3 /* Images.xcassets */,
 				46CDA0821A50B994001FCCB3 /* MainMenu.xib */,
 				46CDA0A31A50C4DD001FCCB3 /* ContentViewController.swift */,
+				46CDA0B51A50DB99001FCCB3 /* ContentView.swift */,
 				46CDA0A41A50C4DD001FCCB3 /* ContentViewController.xib */,
 				46CDA09F1A50C439001FCCB3 /* AXStatusItemPopup */,
 				46CDA07C1A50B994001FCCB3 /* Supporting Files */,
@@ -230,6 +233,7 @@
 			files = (
 				46CDA0A21A50C439001FCCB3 /* AXStatusItemPopup.m in Sources */,
 				46CDA0A51A50C4DD001FCCB3 /* ContentViewController.swift in Sources */,
+				46CDA0B61A50DB99001FCCB3 /* ContentView.swift in Sources */,
 				46CDA07F1A50B994001FCCB3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
