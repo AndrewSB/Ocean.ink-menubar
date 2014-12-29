@@ -40,8 +40,6 @@
 		46CDA0A31A50C4DD001FCCB3 /* ContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
 		46CDA0A41A50C4DD001FCCB3 /* ContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContentViewController.xib; sourceTree = "<group>"; };
 		46CDA0AE1A50C64F001FCCB3 /* Ocean-ink-Menubar-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Ocean-ink-Menubar-Bridging-Header.h"; sourceTree = "<group>"; };
-		46CDA0B01A50CD27001FCCB3 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
-		46CDA0B31A50D668001FCCB3 /* Fabric.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Fabric.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,8 +63,6 @@
 		46CDA0701A50B994001FCCB3 = {
 			isa = PBXGroup;
 			children = (
-				46CDA0B31A50D668001FCCB3 /* Fabric.framework */,
-				46CDA0B01A50CD27001FCCB3 /* Social.framework */,
 				46CDA07B1A50B994001FCCB3 /* Ocean.ink Menubar */,
 				46CDA08C1A50B994001FCCB3 /* Ocean.ink MenubarTests */,
 				46CDA07A1A50B994001FCCB3 /* Products */,
@@ -352,10 +348,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = "Ocean.ink Menubar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -367,10 +359,6 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)",
-				);
 				INFOPLIST_FILE = "Ocean.ink Menubar/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
